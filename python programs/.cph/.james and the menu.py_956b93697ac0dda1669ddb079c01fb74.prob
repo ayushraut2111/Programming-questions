@@ -1,0 +1,1 @@
+{"name":"Local: james and the menu","url":"d:\\python programs\\james and the menu.py","tests":[{"id":1661455770794,"input":"3 4\n1 2 1 10\n3 2 3 4\n1 3 3 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\python programs\\james and the menu.py","group":"local","local":true}
