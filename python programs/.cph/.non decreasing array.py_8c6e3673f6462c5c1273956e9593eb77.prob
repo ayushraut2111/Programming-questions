@@ -1,0 +1,1 @@
+{"name":"Local: non decreasing array","url":"d:\\Programming-questions\\python programs\\non decreasing array.py","tests":[{"id":1661542245783,"input":"2\n3\n2 1 3\n2\n5 1","output":"2 2 3\n5 5 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\python programs\\non decreasing array.py","group":"local","local":true}
