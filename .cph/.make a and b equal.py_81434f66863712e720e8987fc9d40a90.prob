@@ -1,0 +1,1 @@
+{"name":"Local: make a and b equal","url":"d:\\Programming-questions\\make a and b equal.py","tests":[{"id":1661800845056,"input":"3\n2\n1 2\n2 1\n3\n1 1 2\n2 2 1\n3\n4 6 8\n5 7 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\make a and b equal.py","group":"local","local":true}
