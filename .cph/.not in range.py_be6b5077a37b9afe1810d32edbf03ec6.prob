@@ -1,0 +1,1 @@
+{"name":"Local: not in range","url":"d:\\Programming-questions\\not in range.py","tests":[{"id":1661971529391,"input":"5\n2 20\n23 200\n21 21\n101 2000\n2002 999998\n","output":"2002023"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\not in range.py","group":"local","local":true}
