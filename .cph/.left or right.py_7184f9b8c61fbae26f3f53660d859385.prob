@@ -1,0 +1,1 @@
+{"name":"Local: left or right","url":"d:\\Programming-questions\\left or right.py","tests":[{"id":1662065787910,"input":"3 4\n1 2 3\n0 1 L\n1 3 L\n2 1 R\n1 5 L","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\left or right.py","group":"local","local":true}
