@@ -1,0 +1,1 @@
+{"name":"Local: grid and phrase","url":"d:\\Programming-questions\\grid and phrase.py","tests":[{"id":1662060617828,"input":"5 5\nsafer\namjad\nbabol\naaron\nsongs","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\grid and phrase.py","group":"local","local":true}
