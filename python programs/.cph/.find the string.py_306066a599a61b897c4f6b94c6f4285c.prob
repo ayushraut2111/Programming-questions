@@ -1,0 +1,1 @@
+{"name":"Local: find the string","url":"d:\\Programming-questions\\python programs\\find the string.py","tests":[{"id":1662320267069,"input":"1\n3 3\naba\nxyz\nbdr\naxbaydb","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming-questions\\python programs\\find the string.py","group":"local","local":true}
