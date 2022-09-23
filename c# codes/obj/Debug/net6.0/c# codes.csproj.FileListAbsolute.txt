@@ -1,0 +1,15 @@
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.csproj.AssemblyReference.cache
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.AssemblyInfoInputs.cache
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.AssemblyInfo.cs
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.csproj.CoreCompileInputs.cache
+D:\Programming-questions\c# codes\bin\Debug\net6.0\c# codes.exe
+D:\Programming-questions\c# codes\bin\Debug\net6.0\c# codes.deps.json
+D:\Programming-questions\c# codes\bin\Debug\net6.0\c# codes.runtimeconfig.json
+D:\Programming-questions\c# codes\bin\Debug\net6.0\c# codes.dll
+D:\Programming-questions\c# codes\bin\Debug\net6.0\c# codes.pdb
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.dll
+D:\Programming-questions\c# codes\obj\Debug\net6.0\refint\c# codes.dll
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.pdb
+D:\Programming-questions\c# codes\obj\Debug\net6.0\c# codes.genruntimeconfig.cache
+D:\Programming-questions\c# codes\obj\Debug\net6.0\ref\c# codes.dll
