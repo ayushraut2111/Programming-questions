@@ -1,0 +1,2 @@
+to make new .net file :- dotnet new console
+to run .net code :-dotnet run
