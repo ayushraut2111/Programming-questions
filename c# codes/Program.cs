@@ -5,7 +5,7 @@
     }
 }
 class B:A{
-     public void eat()
+     public void eat1()
     {
         Console.Write("cat");
     }
