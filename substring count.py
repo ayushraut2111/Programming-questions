@@ -1,7 +1,7 @@
-# def solve(n,k,s):
+def solve(n,k,s):
     count=0
-    # if len(set(s))==1 and k==2:
-    #     return 1
+    if len(set(s))==1 and k==2:
+        return 1
     while len(s)>1:
         for i in range(0,n-1):
             for j in range(i+1,n):
