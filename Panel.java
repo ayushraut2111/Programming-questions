@@ -16,7 +16,7 @@ import javax.swing.JPanel;
       JFrame frame = new JFrame("Rectangles");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.add(rects);
-      frame.setSize(360, 300);
+      frame.setSize(360, 300);elitmus1.py
       frame.setLocationRelativeTo(null);
       frame.setVisible(true);
    }
