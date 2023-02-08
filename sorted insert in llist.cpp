@@ -47,7 +47,7 @@ node* sortinsert(node* head,int data)
         return head;
     }
     node* temp=head,*temp1=head;
-    while(temp!=NULL && data<temp->data)
+    while(temp!=NULL && data>temp->data)
     {
         temp1=temp;
         temp=temp->next;
@@ -90,12 +90,15 @@ int main()
 {
     node* head=NULL;
     head=sortinsert(head,7);
+    head=sortinsert(head,7);
     head=sortinsert(head,1);
     head=sortinsert(head,3);
     head=sortinsert(head,4);
     head=sortinsert(head,8);
+    head=sortinsert(head,4);
+
     // head=revlist(head);
-    cout<<middle(head);
-    // print(head);
+    // cout<<middle(head);
+    print(head);
 
 }
