@@ -57,12 +57,25 @@ node* sortinsert(node* head,int data)
     return  head;
 
 }
+node* revlist(node* head)
+{
+    node*curr=head,*prev=NULL,*nex=head;
+    while(curr!=NULL)
+    {
+        nex=curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=nex;
+    }
+    return prev;
+}
 int main()
 {
     node* head=NULL;
     head=sortinsert(head,7);
     head=sortinsert(head,1);
     head=sortinsert(head,3);
+    head=revlist(head);
     print(head);
 
 }
