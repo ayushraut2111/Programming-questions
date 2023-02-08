@@ -142,24 +142,74 @@ bool detectloop(node* head)
     }
     return false;
 }
+node* mergesort(node*h1,node* h2)
+{
+    if (h1==NULL&&h2==NULL)
+    return NULL;
+    if(h1==NULL)
+    return h2;
+    if(h2==NULL)
+    return h1;
+    node* ptr=new node(-1);
+    node* temp=ptr;
+    while(h1!=NULL && h2!=NULL)
+    {
+        if (h1->data<h2->data)
+        {
+            ptr->next=h1;
+            ptr=h1;
+            h1=h1->next;
+        }
+        else{
+            ptr->next=h2;
+            ptr=h2;
+            h2=h2->next;
+        }
+    }
+    if(h1==NULL)
+    {
+        while(h2!=NULL)
+        {
+            ptr->next=h2;
+            ptr=h2;
+            h2=h2->next;
+        }
+    }
+    if(h2==NULL)
+    {
+        while(h1!=NULL)
+        {
+            ptr->next=h1;
+            ptr=h1;
+            h1=h1->next;
+        }
+    }
+    temp=temp->next;
+    return temp;
+}
 int main()
 {
     node* head=NULL;
     head=sortinsert(head,7);
-    head=sortinsert(head,7);
-    head=sortinsert(head,1);
+    // head=sortinsert(head,7);
+    head=sortinsert(head,10);
     head=sortinsert(head,3);
-    head=sortinsert(head,4);
-    head=sortinsert(head,8);
-    head=sortinsert(head,4);
-   
+    head=sortinsert(head,14);
+    head=sortinsert(head,18);
+    // head=sortinsert(head,4);
 
-    // head=revlist(head);
-    // cout<<middle(head);
     // print(head);
-     cout<<endl;
     // head=revgrp(head,3);
-    detectloop(head)?cout<<"yes":cout<<"no";
-    // print(head);
+    // detectloop(head)?cout<<"yes":cout<<"no";
+    print(head);
+     cout<<endl;
+    node*head1=NULL;
+    head1=sortinsert(head1,25);
+    head1=sortinsert(head1,20);
+    head1=sortinsert(head1,8);
+    print(head1);
+     cout<<endl;
+    node* temp=mergesort(head,head1);
+    print(temp);
 
 }
