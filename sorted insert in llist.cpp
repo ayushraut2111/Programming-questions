@@ -86,6 +86,26 @@ int middle(node* head)
     }
     return temp->data;
 }
+node* removdup(node* head)
+{
+    if (head==NULL||head->next==NULL)
+    return head;
+    node* temp=head;
+    node* temp1=head;
+    while(temp->next!=NULL)
+    {
+        // cout<<"a";
+        if (temp->data==temp->next->data)
+        {
+            temp->next=temp->next->next;
+        }
+        else{
+            temp=temp->next;
+        }
+
+    }
+    return head;
+}
 int main()
 {
     node* head=NULL;
@@ -99,6 +119,9 @@ int main()
 
     // head=revlist(head);
     // cout<<middle(head);
+    print(head);
+     cout<<endl;
+    head=removdup(head);
     print(head);
 
 }
