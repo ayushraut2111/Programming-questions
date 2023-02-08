@@ -69,13 +69,33 @@ node* revlist(node* head)
     }
     return prev;
 }
+int middle(node* head)
+{
+    if(head==NULL)
+    return 0;
+    if(head->next==NULL)
+    {
+        return 0;
+    }
+    node* temp=head,*temp1=head;
+    while(temp1!=NULL&&temp1->next!=NULL&&temp!=NULL)
+    {
+        cout<<"a";
+        temp=temp->next;
+        temp1=temp1->next->next;
+    }
+    return temp->data;
+}
 int main()
 {
     node* head=NULL;
     head=sortinsert(head,7);
     head=sortinsert(head,1);
     head=sortinsert(head,3);
-    head=revlist(head);
-    print(head);
+    head=sortinsert(head,4);
+    head=sortinsert(head,8);
+    // head=revlist(head);
+    cout<<middle(head);
+    // print(head);
 
 }
