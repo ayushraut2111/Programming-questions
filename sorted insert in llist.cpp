@@ -106,6 +106,25 @@ node* removdup(node* head)
     }
     return head;
 }
+node* revgrp(node* head,int i)
+{
+    if(head==NULL||head->next==NULL)
+    return head;
+    int cunt=0;
+    node*curr=head,*prev=NULL,*nex=head;
+    while(curr!=NULL&&cunt<i)
+    {
+        nex=curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=nex;
+        cunt+=1;
+    }
+    node* ptr=revgrp(curr,i);
+    head->next=ptr;
+    return prev;
+
+}
 int main()
 {
     node* head=NULL;
@@ -121,7 +140,7 @@ int main()
     // cout<<middle(head);
     print(head);
      cout<<endl;
-    head=removdup(head);
+    head=revgrp(head,3);
     print(head);
 
 }
