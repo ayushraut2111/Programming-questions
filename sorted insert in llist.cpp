@@ -125,6 +125,23 @@ node* revgrp(node* head,int i)
     return prev;
 
 }
+bool detectloop(node* head)
+{
+    if(head==NULL||head->next==NULL)
+    return false;
+    node* temp=head,*temp1=head;
+    while(temp1!=NULL&&temp1->next!=NULL&&temp!=NULL)
+    {
+        // cout<<"a";
+        temp=temp->next;
+        temp1=temp1->next->next;
+        if(temp==temp1)
+        {
+            return true;
+        }
+    }
+    return false;
+}
 int main()
 {
     node* head=NULL;
@@ -135,12 +152,14 @@ int main()
     head=sortinsert(head,4);
     head=sortinsert(head,8);
     head=sortinsert(head,4);
+   
 
     // head=revlist(head);
     // cout<<middle(head);
-    print(head);
+    // print(head);
      cout<<endl;
-    head=revgrp(head,3);
-    print(head);
+    // head=revgrp(head,3);
+    detectloop(head)?cout<<"yes":cout<<"no";
+    // print(head);
 
 }
